@@ -1,0 +1,33 @@
+.target-setter {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.target-setter .target-setter-buttons {
+  width: 40px;
+  height: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  color: white;
+  background: rgb(16, 19, 23);
+  border-radius: 4px;
+}
+
+.target-setter .target-setter-target-value > h3 {
+  margin: 0;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.target-setter .target-setter-target-value p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: rgb(189, 188, 190);
+}
