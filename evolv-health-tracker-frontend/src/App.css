@@ -17,3 +17,9 @@ h4, h3, h2, h1, p {
   font-style: normal;
   color: #fff;
 }
+
+@media (max-width: 1268px) {
+  .dashboard-container {
+    padding: 60px 10px 0;
+  }
+}
